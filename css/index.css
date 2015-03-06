@@ -4,11 +4,12 @@
 h1{
 	font-size: 30px;
 }
-img{
+#running{
 	display: block;
 	margin: auto;
 	margin-top: 10%;
 	padding: 2%;
 	border: 1px solid rgb(237,45,58);
 	border-radius: 5%;
+	width:30%;
 }
