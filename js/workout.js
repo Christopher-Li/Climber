@@ -3,17 +3,32 @@ $( document ).ready(function() {
   var attributes= url.substr(url.indexOf("?")+1);  
   attributes= attributes.split("&");
 
+  var workout;
   for(var i=0; i<JSON.length; i++){ 
     if ((attributes[0]===JSON[i]["body-part"]) && (attributes[1]===JSON[i]["difficulty"])){
-      Workout=JSON[i];
-      console.log(Workout);
+      workout=JSON[i];
+      console.log(workout);
     }
   }
 
-  
+  var name=workout['name'];
+  var author= workout['author'];
+  var exercises= workout['exercises'];
+  $("#name").html(name);
+  $("#author").html(author);
+  for (var j=1; j<exercises.length+1; j++){
+    var id="#";
+    id+=j;
+    $(id+" .text-left").html(exercises[j-1][0]);
+    $(id+" .text-right").html(exercises[j-1][1]);
+  }
 });
 
-var Workout
+
+
+/*function changehtml(workout){
+
+}*/
 
 JSON= [
   {
