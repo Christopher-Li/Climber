@@ -21,3 +21,6 @@ h1{
 	width:30%;
 }
 
+.navbar-nav>li>a {
+	color:rgb(237,45,58);
+}
