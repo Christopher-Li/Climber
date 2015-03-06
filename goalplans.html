@@ -27,25 +27,21 @@
 
 	    <div class="container">
 	    	<div class="row padding-top-5p">
-	    		<h1 class="text-bold text-white">Progress</h1>
+	    		<h1 class="text-bold text-white">Choose your plan</h1>
 	    	</div>
 	    	<div class="row padding-top-5p">
-	    		<div class="col-xs-8 col-xs-offset-2">
-	    			<img class="text-center img-responsive" src="img/graph.png"/>
-	    		</div>
-			</div>
-	    	<div class="row padding-top-5p">
-	    		<h3 class="text-bold text-white"><u>Workout Plan:</u></h3>
-	    		<h4 class="text-bold text-white">You've completed <span class="text-red">3</span> workouts in <span class="text-red">8</span> Days</h4>
-			</div>
-			<div class="row padding-top-5p">
 	    		<div class="col-xs-10 col-xs-offset-1">  
-	    		  <button type="submit" id="start-btn" class="btn btn-primary btn-red btn-lg btn-block input-square text-h3">SET GOAL</button>
+	    		  <button type="submit" id="start-btn" class="start-btn btn btn-primary btn-red btn-lg btn-block input-square text-h3">Weight Loss Beginner</button>
 	    		</div>
 			</div>
 			<div class="row padding-top-5p">
 	    		<div class="col-xs-10 col-xs-offset-1">  
-	    		  <button type="submit" id="start-btn1" class="btn btn-primary btn-red btn-lg btn-block input-square text-h3">DONE</button>
+	    		  <button type="submit" id="start-btn1" class="start-btn btn btn-primary btn-red btn-lg btn-block input-square text-h3">Lose it Now</button>
+	    		</div>
+			</div>
+			<div class="row padding-top-5p">
+	    		<div class="col-xs-10 col-xs-offset-1">  
+	    		  <button type="submit" id="start-btn2" class="start-btn btn btn-primary btn-red btn-lg btn-block input-square text-h3">You Can Do it</button>
 	    		</div>
 			</div>
 	    </div>
@@ -61,10 +57,13 @@
 		<script src="js/main.js"></script>	
 		<script type="text/javascript">
 		    document.getElementById("start-btn").onclick = function () {
-		        location.href = "goal.html";
+		        location.href = "graph.html";
 		    };
 		    document.getElementById("start-btn1").onclick = function () {
-		        location.href = "index.html";
+		        location.href = "graph.html";
+		    };
+		    document.getElementById("start-btn2").onclick = function () {
+		        location.href = "graph.html";
 		    };
 		</script>
 	</body>
