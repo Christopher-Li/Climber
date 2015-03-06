@@ -35,6 +35,18 @@ h5{
 	color:#FFF;
 	text-align: middle;
 }
+.btn-green{
+	background-color:rgb(48,145,120) !important;
+	border-color:rgb(48,145,120) !important;
+	color:#FFF;
+	text-align: middle;
+}
+.btn-green:hover{
+	background-color: #232323!important;
+	border-color:#232323!important;
+	color:#FFF;
+	text-align: middle;
+}
 .input-square{
 	-webkit-border-radius: 0 !important;
 	 -moz-border-radius: 0 !important;
@@ -42,4 +54,13 @@ h5{
 }
 .width-100p{
 	width:100%;
+}
+.width-80p{
+	width:80%;
+}
+.margin-auto{
+	margin:0 auto;
+}
+.border-white{
+	 border: 1px solid white;
 }

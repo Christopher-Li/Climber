@@ -3,7 +3,7 @@
    0B.TYPOGRAPHY-DESKTOP
 =========================================================== */
 body{
-	background:#000;
+	background: #000;
 	color:rgb(237,45,58);
 	font-weight:300;
 	font-family: 'Open Sans', sans-serif;
@@ -12,6 +12,9 @@ body{
 }
 .text-red{
 	color:rgb(237,45,58);
+}
+.text-white{
+	color:rgb(255,255,255);
 }
 .background-black{
 	background-color: rgb(0,0,0);
