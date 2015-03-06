@@ -9,6 +9,8 @@ h2 {
 	margin-top: 10%;
 }
 
-.wide-container {
-	margin-left: 10%;
+.arrow {
+	top: 200px;
+	padding:0px;
+	vertical-align: middle;
 }
