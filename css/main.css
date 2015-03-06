@@ -3,6 +3,18 @@
    0B.TYPOGRAPHY-DESKTOP
 =========================================================== */
 body{
+	background: url("../img/background.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:rgb(237,45,58);
+	font-weight:300;
+	font-family: 'Open Sans', sans-serif;
+	font-size:1em;
+	padding-top: 50px;
+}
+
 	background:#000;
 	color:rgb(237,45,58);
 	font-weight:300;
