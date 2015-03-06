@@ -1,0 +1,16 @@
+h1 {
+	margin:auto;
+	font-size: 300%;
+	padding-top: 10%;
+}
+
+h2 {
+	text-align: left;
+	margin-top: 10%;
+}
+
+.arrow {
+	top: 200px;
+	padding:0px;
+	vertical-align: middle;
+}
