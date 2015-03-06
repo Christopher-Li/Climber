@@ -1,0 +1,38 @@
+h1{
+	font-size:28px;
+}
+h5{
+	font-size: 15px;
+}
+.border-black{
+	 border: 1px solid white;
+	 padding:8px;
+
+}
+.padding-top-5p{
+	padding-top: 5%;
+}
+.padding-top-30p{
+	padding-top: 30%;
+}
+.padding-top-18p{
+	padding-top: 18%;
+}
+.btn-red{
+	background-color: rgb(237,45,58) !important;
+	border-color:rgb(237,45,58) !important;
+	color:#FFF;
+	text-align: middle;
+
+}
+.btn-red:hover{
+	background-color: #232323!important;
+	border-color:#232323!important;
+	color:#FFF;
+	text-align: middle;
+}
+.input-square{
+	-webkit-border-radius: 0 !important;
+	 -moz-border-radius: 0 !important;
+		  border-radius: 0 !important;
+}
