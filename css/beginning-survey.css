@@ -1,29 +1,58 @@
 h1 {
 	margin:auto;
-	font-size: 300%;
+	font-size: 350%;
 	padding-top: 10%;
 }
 
 h2 {
 	text-align: left;
 	margin-top: 10%;
+	font-size: 250%;
+}
+
+h3 {
+	text-align: left;
+	font-size: 3em;
+}
+
+h4 {
+	text-align: left;
+	font-size: 2em;
+	margin-bottom: 10%
 }
 
 .arrow {
 	top: 200px;
-	padding:0px;
-	font-size: 3em;
+	padding: 0px;
+	font-size: 2.5em;
 }
 
-/*li.dropdown.active.open > a, 
-li.dropdown.active.open > ul.dropdown-menu a:hover,
-li.dropdown.open > a, 
-li.dropdown.open > ul.dropdown-menu a:hover
-{
-	color:rgb(237,45,58);
-	background-color: black;
-}*/
-.dropdown-toggle {
-	color:rgb(237,45,58);
+.dropdown-toggle, .dropdown-toggle:active, .dropdown-toggle:focus, .dropdown-toggle:visited {
+	background-image:none;
+	color:white;
 	background-color: black;
 }
+
+.dropdown-toggle:hover, .open>.dropdown-toggle.btn-default {
+	color:black;
+	background-color: white;
+}
+
+a {
+	text-align: left;
+}
+
+.form-control, .form-control:active {
+	color:white;
+	text-align: left;
+	background-color: black;
+	border-color: white;
+}
+
+.input-group-addon {
+	background-color: white;
+}
+
+/* .dropdown-menu li > a:hover, .dropdown-menu li > a:focus,
+ .dropdown-submenu:hover > a*/
+ /* .dropdown-menu */
