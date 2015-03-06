@@ -1,12 +1,13 @@
 h1 {
 	margin:auto;
-	font-size: 300%;
+	font-size: 350%;
 	padding-top: 10%;
 }
 
 h2 {
 	text-align: left;
-	margin-top: 10%;
+	margin-top: 8%;
+	font-size: 250%;
 }
 
 .arrow {
@@ -15,15 +16,21 @@ h2 {
 	font-size: 3em;
 }
 
-/*li.dropdown.active.open > a, 
-li.dropdown.active.open > ul.dropdown-menu a:hover,
-li.dropdown.open > a, 
-li.dropdown.open > ul.dropdown-menu a:hover
-{
-	color:rgb(237,45,58);
-	background-color: black;
-}*/
-.dropdown-toggle {
-	color:rgb(237,45,58);
+.dropdown-toggle, .dropdown-toggle:active, .dropdown-toggle:focus, .dropdown-toggle:visited {
+	background-image:none;
+	color:white;
 	background-color: black;
 }
+
+.dropdown-toggle:hover, .open>.dropdown-toggle.btn-default {
+	color:black;
+	background-color: white;
+}
+
+a {
+	text-align: left;
+}
+
+/* .dropdown-menu li > a:hover, .dropdown-menu li > a:focus,
+ .dropdown-submenu:hover > a*/
+ /* .dropdown-menu */
