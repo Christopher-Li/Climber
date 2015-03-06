@@ -8,7 +8,6 @@ function flash(){
   	border = $("#running").css("border-color");
     if(border == 'rgb(255, 255, 255)'){
     	$('#running').css({border: '1px solid rgb(237,45,58)'});
-      alert('hi');
     }
     else{
     	$('#running').css({border:'1px solid rgb(255,255,255)'});
