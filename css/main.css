@@ -1,6 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 /* ========================================================
    0B.TYPOGRAPHY-DESKTOP
 =========================================================== */
+body{
+	background:#FFF;
+	color:#7F8289;
+	font-weight:300;
+	font-family: 'Open Sans', sans-serif;
+	font-size:1em;
+	padding-top: 50px;
+}
 .text-red{
 	color:rgb(237,45,58);
 }
@@ -10,3 +19,12 @@
 /* ========================================================
    1A.FONTS-DESKTOP
 =========================================================== */
+h1,h2,h3,h4,h5,h6,p,a,input, textarea{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	font-weight: 300; 
+	text-align:center;
+	vertical-align:middle;
+	color: #000;
+	text-decoration: none;
+}
