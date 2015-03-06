@@ -14,3 +14,16 @@ h2 {
 	padding:0px;
 	font-size: 3em;
 }
+
+/*li.dropdown.active.open > a, 
+li.dropdown.active.open > ul.dropdown-menu a:hover,
+li.dropdown.open > a, 
+li.dropdown.open > ul.dropdown-menu a:hover
+{
+	color:rgb(237,45,58);
+	background-color: black;
+}*/
+.dropdown-toggle {
+	color:rgb(237,45,58);
+	background-color: black;
+}
