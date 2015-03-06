@@ -33,21 +33,21 @@ $( document ).ready(function() {
 JSON= [
   {
     "name":"Beginner Full Body Workout",
-    "body-part":"FullBody",
+    "body-part":"Fullbody",
     "difficulty":"Easy",
     "author":"Philip Lan",
     "exercises":[["Squats","x15","2"],["Chest Press","x15","2"],["Assisted Pull-up Machine","x15","2"],["Abdominal Crunch Machine","x15","2"],["Seated Back Extension","x15","2"]]
   },
   {
     "name":"Dumbbell Workout",
-    "body-part":"FullBody",
+    "body-part":"Fullbody",
     "difficulty":"Intermediate",
     "author":"Evan House",
     "exercises":[["Dumbell Squats with Overhead Press","x15","2"],["Single-Arm Dumbbell Biceps Curl","x15","2"],["Seated Dumbbell Triceps Extensions","x15","2"],["Dumbbell Chest Press","x15","2"],["Dumbell Crunches","x15","2"]]
   },
   {
     "name":"Beast Mode",
-    "body-part":"FullBody",
+    "body-part":"Fullbody",
     "difficulty":"Hardcore",
     "author":"Arnold Schwarzenegger",
     "exercises":[["Squats","x15","4"],["Bench Press","x15","3"],["Deadlifts","x15","3"],["Cleans","x15","2"],["Ab Crunch Wheel","x15","3"]]
@@ -162,7 +162,7 @@ JSON= [
     "exercises":
     [["Leg Lifts","2min","2"],
     ["Stairs","x15","2"],
-    ["Front Squat","x10","2"]
+    ["Front Squat","x10","2"],
     ["Plank","2 min","2"],
     ["Bulgarian Split Squat","x20","3"]]
   }]
