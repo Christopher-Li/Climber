@@ -34,3 +34,6 @@ h1,h2,h3,h4,h5,h6,p,a,input, textarea{
 	color: rgb(237,45,58);
 	text-decoration: none;
 }
+h5{
+	font-size: 14px;
+}
